@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: TT TT, TT, LIC=VGXG8-3UU78-BSWYX-HYJ3K-FQ863-L90MG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\Application\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      UL2CM3.DLL V1.158.5.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+d:\Code\Mine\SPI_Test\Projects\MDK-ARM\SPI_Test.uvprojx
+Project File Date:  08/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Application\Keil_v5\ARM\ARMCC\Bin'
+Build target 'KEY'
+assembling startup_stm32f103xe.s...
+compiling delay.c...
+compiling W25Q128.c...
+..\..\Drivers\BSP\SPI\SPI.h(4): error:  #5: cannot open source input file "delay.h": No such file or directory
+  #include "delay.h"
+..\..\Interface\FLASH\W25Q128.c: 0 warnings, 1 error
+compiling beep.c...
+compiling SPI.c...
+..\..\Drivers\BSP\SPI\SPI.h(4): error:  #5: cannot open source input file "delay.h": No such file or directory
+  #include "delay.h"
+..\..\Drivers\BSP\SPI\SPI.c: 0 warnings, 1 error
+compiling main.c...
+compiling led.c...
+compiling usart.c...
+compiling key.c...
+compiling sys.c...
+"..\..\Output\atk_f103.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  d:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE
+  D:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>

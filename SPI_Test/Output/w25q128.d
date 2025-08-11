@@ -1,0 +1,10 @@
+..\..\output\w25q128.o: ..\..\Interface\FLASH\W25Q128.c
+..\..\output\w25q128.o: ..\..\Interface\FLASH\W25Q128.h
+..\..\output\w25q128.o: ..\..\Drivers\BSP\SPI\SPI.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Include\core_cm3.h
+..\..\output\w25q128.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\w25q128.o: ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h

@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+"..\..\output\startup_stm32f103xe.o"
+"..\..\output\main.o"
+"..\..\output\delay.o"
+"..\..\output\sys.o"
+"..\..\output\usart.o"
+"..\..\output\led.o"
+"..\..\output\beep.o"
+"..\..\output\key.o"
+"..\..\output\spi.o"
+"..\..\output\w25q128.o"
+--strict --scatter "..\..\Output\atk_f103.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\atk_f103.map" -o ..\..\Output\atk_f103.axf
