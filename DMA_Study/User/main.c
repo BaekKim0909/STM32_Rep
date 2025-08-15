@@ -22,47 +22,47 @@
 #include "./SYSTEM/sys/sys.h"
 #include "./SYSTEM/usart/usart.h"
 #include "./SYSTEM/delay/delay.h"
-#include "./BSP/LED/led.h"
+#include "dma.h"
+
+
+//定义全局变量，表示数据传输完成
+uint8_t IsFinsihed = 0;
+
+
+//定义全局常量数据：常量存在FLASH里
+const uint8_t source[] = {10,20,30,40};
+//定义变量：变量存在RAM里
+uint8_t dest[4] = {0};
+
+
 
 
 int main(void)
 {
-    uint8_t len;
-    uint16_t times = 0;
-
     HAL_Init();                             /* 初始化HAL库 */
     sys_stm32_clock_init(RCC_PLL_MUL9);     /* 设置时钟为72Mhz */
     delay_init(72);                         /* 延时初始化 */
     usart_init(115200);                     /* 串口初始化为115200 */
-    led_init();                             /* 初始化LED */
+    //初始化DMA1
+    DMA1_Init();
+    //传输数据
+    DMA1_Transmit((uint32_t)source,(uint32_t)dest,sizeof(source)/sizeof(source[0]));
     while (1)
     {
-        if (g_usart_rx_sta & 0x8000)        /* 接收到了数据? */
+        
+        if (IsFinsihed)
         {
-            len = g_usart_rx_sta & 0x3fff;  /* 得到此次接收到的数据长度 */
-            printf("\r\n您发送的消息为:\r\n");
-
-            HAL_UART_Transmit(&g_uart1_handle,(uint8_t*)g_usart_rx_buf, len, 1000);    /* 发送接收到的数据 */
-            while(__HAL_UART_GET_FLAG(&g_uart1_handle,UART_FLAG_TC) != SET);           /* 等待发送结束 */
-            printf("\r\n\r\n");             /* 插入换行 */
-            g_usart_rx_sta = 0;
-        }
-        else
-        {
-            times++;
-
-            if (times % 5000 == 0)
+            /* code */
+            //打印输出验证
+            printf("source's Address:%p,dest's Address:%p \n",source,dest);
+            for (uint8_t i = 0; i < sizeof(dest)/sizeof(dest[0]); i++)
             {
-                printf("\r\n正点原子 STM32开发板 串口实验\r\n");
-                printf("正点原子@ALIENTEK\r\n\r\n\r\n");
+                printf("%d\t",dest[i]);
             }
-
-            if (times % 200 == 0) printf("请输入数据,以回车键结束\r\n");
-
-            if (times % 30  == 0) LED0_TOGGLE(); /* 闪烁LED,提示系统正在运行. */
-
-            delay_ms(10);
+            
+            delay_ms(1000);
         }
+        
     }
 }
 
