@@ -1,24 +1,25 @@
 {
     "configurations": [
         {
-            "name": "USART",
+            "name": "EXTI",
             "includePath": [
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\CMSIS\\Include",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\User",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Middlewares",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\BSP\\DMA",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\CMSIS\\Include",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\User",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Middlewares",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\BSP\\KEY",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\BSP\\LED",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\SYSTEM\\delay",
                 "D:\\APP\\Keil_v5\\ARM\\ARMCC\\include",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\arm",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\SYSTEM\\delay",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\SYSTEM\\sys",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\SYSTEM\\usart",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\STM32F1xx_HAL_Driver\\Src",
-                "d:\\Repos\\STM32_Rep\\DMA_Study\\Drivers\\BSP\\LED",
-                "d:\\Repos\\STM32_Rep\\DMA_Study"
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates\\arm",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Source\\Templates",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\SYSTEM\\sys",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\SYSTEM\\usart",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\STM32F1xx_HAL_Driver\\Src",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED\\Drivers\\BSP\\BEEP",
+                "d:\\Repos\\STM32_Rep\\EXTI_KEY_LED"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
