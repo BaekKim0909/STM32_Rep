@@ -3,15 +3,16 @@
         {
             "name": "DMA_Mem2Mem_Hal",
             "includePath": [
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Core\\Inc",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\CMSIS\\Include",
-                "D:\\APP\\Keil_v5\\ARM\\ARMCC\\include",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\MDK-ARM",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Core\\Src",
-                "d:\\Repos\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Src"
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Core\\Inc",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\CMSIS\\Include",
+                "D:\\Application\\Keil_v5\\ARM\\ARMCC\\include",
+                "D:\\Application\\Keil_v5\\ARM\\ARMCC\\include\\rw",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\MDK-ARM",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Core\\Src",
+                "d:\\Code\\STM32_Rep\\DMA_Mem2Mem_Hal\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",

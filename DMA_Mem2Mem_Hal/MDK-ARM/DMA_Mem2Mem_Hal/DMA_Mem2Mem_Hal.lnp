@@ -22,6 +22,6 @@
 "dma_mem2mem_hal\stm32f1xx_hal_exti.o"
 "dma_mem2mem_hal\system_stm32f1xx.o"
 --library_type=microlib --strict --scatter "DMA_Mem2Mem_Hal\DMA_Mem2Mem_Hal.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "DMA_Mem2Mem_Hal.map" -o DMA_Mem2Mem_Hal\DMA_Mem2Mem_Hal.axf
