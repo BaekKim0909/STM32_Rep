@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"exti_key_hal\startup_stm32f103xe.o"
+"exti_key_hal\main.o"
+"exti_key_hal\gpio.o"
+"exti_key_hal\stm32f1xx_it.o"
+"exti_key_hal\stm32f1xx_hal_msp.o"
+"exti_key_hal\stm32f1xx_hal_gpio_ex.o"
+"exti_key_hal\stm32f1xx_hal_tim.o"
+"exti_key_hal\stm32f1xx_hal_tim_ex.o"
+"exti_key_hal\stm32f1xx_hal.o"
+"exti_key_hal\stm32f1xx_hal_rcc.o"
+"exti_key_hal\stm32f1xx_hal_rcc_ex.o"
+"exti_key_hal\stm32f1xx_hal_gpio.o"
+"exti_key_hal\stm32f1xx_hal_dma.o"
+"exti_key_hal\stm32f1xx_hal_cortex.o"
+"exti_key_hal\stm32f1xx_hal_pwr.o"
+"exti_key_hal\stm32f1xx_hal_flash.o"
+"exti_key_hal\stm32f1xx_hal_flash_ex.o"
+"exti_key_hal\stm32f1xx_hal_exti.o"
+"exti_key_hal\system_stm32f1xx.o"
+--strict --scatter "EXTI_KEY_Hal\EXTI_KEY_Hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EXTI_KEY_Hal.map" -o EXTI_KEY_Hal\EXTI_KEY_Hal.axf
