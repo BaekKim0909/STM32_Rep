@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"spi_hal\startup_stm32f103xe.o"
+"spi_hal\main.o"
+"spi_hal\gpio.o"
+"spi_hal\spi.o"
+"spi_hal\usart.o"
+"spi_hal\stm32f1xx_it.o"
+"spi_hal\stm32f1xx_hal_msp.o"
+"spi_hal\stm32f1xx_hal_gpio_ex.o"
+"spi_hal\stm32f1xx_hal_spi.o"
+"spi_hal\stm32f1xx_hal.o"
+"spi_hal\stm32f1xx_hal_rcc.o"
+"spi_hal\stm32f1xx_hal_rcc_ex.o"
+"spi_hal\stm32f1xx_hal_gpio.o"
+"spi_hal\stm32f1xx_hal_dma.o"
+"spi_hal\stm32f1xx_hal_cortex.o"
+"spi_hal\stm32f1xx_hal_pwr.o"
+"spi_hal\stm32f1xx_hal_flash.o"
+"spi_hal\stm32f1xx_hal_flash_ex.o"
+"spi_hal\stm32f1xx_hal_exti.o"
+"spi_hal\stm32f1xx_hal_tim.o"
+"spi_hal\stm32f1xx_hal_tim_ex.o"
+"spi_hal\stm32f1xx_hal_uart.o"
+"spi_hal\system_stm32f1xx.o"
+--strict --scatter "SPI_Hal\SPI_Hal.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPI_Hal.map" -o SPI_Hal\SPI_Hal.axf

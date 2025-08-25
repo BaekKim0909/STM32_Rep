@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "lcd.h": "c",
+        "usb.h": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "spi.h": "c",
+        "stm32f0xx_hal.h": "c"
+    }
+}

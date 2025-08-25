@@ -1,105 +1,0 @@
-Dependencies for Project 'SPI_Test', Target 'KEY': (DO NOT MODIFY !)
-F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x64ABAEFE)(--cpu Cortex-M3 -g --apcs=interwork -Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
-F (..\..\User\main.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x64ABAEFE)
-I (..\..\Drivers\./BSP/LED/led.h)(0x64ABAEFE)
-I (..\..\Drivers\./BSP/BEEP/beep.h)(0x64ABAEFE)
-I (..\..\Drivers\./BSP/KEY/key.h)(0x64ABAEFE)
-F (..\..\Drivers\SYSTEM\delay\delay.c)(0x65655EA6)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x64ABAEFE)
-F (..\..\Drivers\SYSTEM\sys\sys.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-F (..\..\Drivers\SYSTEM\usart\usart.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\usart.o --omf_browse ..\..\output\usart.crf --depend ..\..\output\usart.d)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/usart/usart.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-F (..\..\Drivers\BSP\LED\led.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\led.o --omf_browse ..\..\output\led.crf --depend ..\..\output\led.d)
-I (..\..\Drivers\./BSP/LED/led.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-F (..\..\Drivers\BSP\BEEP\beep.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\beep.o --omf_browse ..\..\output\beep.crf --depend ..\..\output\beep.d)
-I (..\..\Drivers\./BSP/BEEP/beep.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-F (..\..\Drivers\BSP\KEY\key.c)(0x64ABAEFE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\key.o --omf_browse ..\..\output\key.crf --depend ..\..\output\key.d)
-I (..\..\Drivers\./BSP/KEY/key.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/sys/sys.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-I (..\..\Drivers\./SYSTEM/delay/delay.h)(0x64ABAEFE)
-F (..\..\Drivers\BSP\SPI\SPI.c)(0x6899855D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\spi.o --omf_browse ..\..\output\spi.crf --depend ..\..\output\spi.d)
-I (..\..\Drivers\BSP\SPI\SPI.h)(0x689980CE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)
-F (..\..\readme.txt)(0x64ABAEFE)()
-F (..\..\Interface\FLASH\W25Q128.c)(0x689993FF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\BSP\SPI -I ..\..\Interface\FLASH-Id:\Code\Mine\SPI_Test\Projects\MDK-ARM\RTE-ID:\Application\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\Application\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\w25q128.o --omf_browse ..\..\output\w25q128.crf --depend ..\..\output\w25q128.d)
-I (..\..\Interface\FLASH\W25Q128.h)(0x68999405)
-I (..\..\Drivers\BSP\SPI\SPI.h)(0x689980CE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABAEFE)
-I (D:\Application\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x64ABAEFE)
-I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x64ABAEFE)

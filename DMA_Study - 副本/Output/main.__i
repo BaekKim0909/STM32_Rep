@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers\ -I ..\..\User -I ..\..\Middlewares -I ..\..\Drivers\BSP\DMA
+-ID:\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="538" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o ..\..\output\main.o --depend ..\..\output\main.d "..\..\User\main.c"
