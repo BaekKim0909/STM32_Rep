@@ -27,5 +27,3 @@ pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i
 pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h
 pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h
 pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h
-pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h
-pico\stm32f0xx_hal_cortex.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h

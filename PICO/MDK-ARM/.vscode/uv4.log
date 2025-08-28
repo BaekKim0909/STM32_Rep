@@ -1,3 +1,10 @@
-Load "PICO\\PICO.axf" 
-Erase Done.Programming Done.Verify OK.Application running ...
-Flash Load finished at 16:20:10
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Application\Keil_v5\ARM\ARMCC\Bin'
+Build target 'PICO'
+linking...
+PICO\PICO.axf: Error: L6218E: Undefined symbol HAL_TIM_Base_Init (referred from delay.o).
+PICO\PICO.axf: Error: L6218E: Undefined symbol HAL_TIM_Base_Start (referred from delay.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+"PICO\PICO.axf" - 2 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:05

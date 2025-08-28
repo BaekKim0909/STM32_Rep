@@ -387,7 +387,7 @@ ARM Macro Assembler    Page 6
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=pico\startup_stm32f072xb.d -opico\startup_stm32f072xb.o -ID:\Code\
+ork --depend=pico\startup_stm32f072xb.d -opico\startup_stm32f072xb.o -Id:\Code\
 
 
 

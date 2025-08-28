@@ -28,8 +28,8 @@ pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h
 pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h
 pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h
 pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h
-pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h
-pico\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi_ex.h
-pico\main.o: ../Core/Inc/spi.h
 pico\main.o: ../Core/Inc/gpio.h
 pico\main.o: ../Core/Inc/lcd.h
+pico\main.o: ../Core/Inc/touch.h
+pico\main.o: ../Core/Inc/delay.h
+pico\main.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

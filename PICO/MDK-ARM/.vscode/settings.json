@@ -5,6 +5,13 @@
         "main.h": "c",
         "gpio.h": "c",
         "spi.h": "c",
-        "stm32f0xx_hal.h": "c"
+        "stm32f0xx_hal.h": "c",
+        "lv_port_disp_template.h": "c",
+        "lv_port_indev_template.h": "c",
+        "touch.h": "c",
+        "lcdfont.h": "c",
+        "queue": "c",
+        "random": "c",
+        "delay.h": "c"
     }
 }

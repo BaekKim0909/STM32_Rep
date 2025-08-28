@@ -59,6 +59,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LCD_CS_Pin GPIO_PIN_12
 #define LCD_CS_GPIO_Port GPIOB
+#define SCK_LCD_Pin GPIO_PIN_13
+#define SCK_LCD_GPIO_Port GPIOB
+#define MOSI_LCD_Pin GPIO_PIN_14
+#define MOSI_LCD_GPIO_Port GPIOB
+#define MISO_LCD_Pin GPIO_PIN_15
+#define MISO_LCD_GPIO_Port GPIOB
 #define LED_Pin GPIO_PIN_6
 #define LED_GPIO_Port GPIOC
 #define LCD_DC_Pin GPIO_PIN_7
@@ -67,6 +73,16 @@ void Error_Handler(void);
 #define LCD_RES_GPIO_Port GPIOC
 #define BEEP_Pin GPIO_PIN_12
 #define BEEP_GPIO_Port GPIOC
+#define TP_MISO_Pin GPIO_PIN_3
+#define TP_MISO_GPIO_Port GPIOB
+#define TP_MOSI_Pin GPIO_PIN_4
+#define TP_MOSI_GPIO_Port GPIOB
+#define TP_IRQ_Pin GPIO_PIN_5
+#define TP_IRQ_GPIO_Port GPIOB
+#define TP_SCK_Pin GPIO_PIN_6
+#define TP_SCK_GPIO_Port GPIOB
+#define TP_CS_Pin GPIO_PIN_7
+#define TP_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

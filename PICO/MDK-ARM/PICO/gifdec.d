@@ -1,0 +1,16 @@
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\gifdec.c
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\gifdec.h
+pico\gifdec.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_fs.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_internal.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/../lv_conf_kconfig.h
+pico\gifdec.o: ../Middlewares/LVGL/GUI/lvgl/examples/porting/../../lv_conf.h
+pico\gifdec.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_log.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_types.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_mem.h
+pico\gifdec.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+pico\gifdec.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_color.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_assert.h
+pico\gifdec.o: ..\Middlewares\LVGL\GUI\lvgl\src\extra\libs\gif\../../../misc/lv_math.h

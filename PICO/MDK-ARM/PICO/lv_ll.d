@@ -1,0 +1,11 @@
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_ll.c
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_ll.h
+pico\lv_ll.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+pico\lv_ll.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+pico\lv_ll.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_mem.h
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+pico\lv_ll.o: ../Middlewares/LVGL/GUI/lvgl/examples/porting/../../lv_conf.h
+pico\lv_ll.o: D:\Application\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+pico\lv_ll.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h
